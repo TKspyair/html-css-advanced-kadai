@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta description="自家焙煎コーヒーが買えるお店">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png">
+            <nav id="nav">
+                <ul>
+                    <li><a  href="concept.html">CONSEPT</a></li>
+                    <li><a  href="product.html">PRODUCT</a></li>
+                    <li><a  href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="burger">
+                <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <nav id="nav-sp">
+                    <ul>
+                        <li>
+                            <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                        </li>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                                <img src="images/logo-sp.png" alt="トップページに戻る">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu" href="index/html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+                        </li>
+                        <li>
+                            <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+                        </li>
+                        <li>
+                            <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>  
+            <h4>Organic Cafe</h4>
+            <h5>自家焙煎コーヒーが買えるお店</h5> 
+            <img id="main-image" src="images/main-image.jpg"> 
+            
+        </main>
+    </body>
+    
+</html>
